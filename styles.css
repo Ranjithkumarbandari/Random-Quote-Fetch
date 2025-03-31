@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+}
+#parent{
+    background-color: lavender;
+    text-align: center;
+    border: 2px solid lightcyan;
+    width: 300px;
+    padding: 100px;
+}
+#button{
+    background:linear-gradient(to right ,red, blue, green);
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+  
+}
+#button:hover{
+    background-color: red;
+    transform: scale(1.1);
+}
+#button:active{
+    background: linear-gradient(to left, lightblue ,lightcyan);
+    color: black;
+    transform: scale(0.7);
+}
+#text:hover{
+    color: blueviolet;
+    transform: scale(1.4);
+    padding-bottom: 1pc;
+}
